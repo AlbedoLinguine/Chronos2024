@@ -16,4 +16,16 @@ public final class Constants {
   public static class OperatorConstants {
     public static final int kDriverControllerPort = 0;
   }
+  public static class ManipulatorConstants {
+    public static final int leftManipulatorID = 1; // temp
+    public static final int rightManipulatorID = 2; // temp
+
+    public static final double intakeSpeed = -1; // temp
+    public static final double shooterSpeed = -1; // temp
+  }
+  public static class DrivebaseConstants {
+    public static final int leftID = 3;
+    public static final int rightID = 4;
+
+  }
 }
