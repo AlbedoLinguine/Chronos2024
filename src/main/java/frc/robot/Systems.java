@@ -6,7 +6,7 @@ import frc.robot.subsystems.Vroombase;
 public class Systems {
     public static Systems instance;
     // public Manipulator manipulator;
-    public Vroombase vroom;
+    public Vroombase vroombase;
 
     // public Spark manipulatorLeft = new Spark(Constants.ManipulatorConstants.leftManipulatorID);
     // public Spark manipulatorRight = new Spark(Constants.ManipulatorConstants.rightManipulatorID);
@@ -16,7 +16,7 @@ public class Systems {
     
     public Systems () {
         // manipulator = new Manipulator(manipulatorLeft, manipulatorRight);
-        vroom = new Vroombase(vroomLeft, vroomRight);
+        vroombase = new Vroombase(vroomLeft, vroomRight);
         instance = this;
     }
 
@@ -24,7 +24,7 @@ public class Systems {
     //     return manipulator;
     // }
 
-    // public Vroombase getV () {
-    //     // return vroombase;
-    // }
+    public Vroombase getVroombase () {
+        return vroombase;
+    }
 }
