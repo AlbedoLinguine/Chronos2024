@@ -1,8 +1,11 @@
 package frc.robot;
 
+import edu.wpi.first.wpilibj.motorcontrol.Spark;
+import frc.robot.subsystems.Vroombase;
+
 public class Systems {
     public static Systems instance;
-    public Manipulator manipulator;
+    // public Manipulator manipulator;
     public Vroombase vroom;
 
     // public Spark manipulatorLeft = new Spark(Constants.ManipulatorConstants.leftManipulatorID);
@@ -17,11 +20,11 @@ public class Systems {
         instance = this;
     }
 
-    public Manipulator getManipulator () {
-        return manipulator;
-    }
+    // public Manipulator getManipulator () {
+    //     return manipulator;
+    // }
 
-    public Drivebase getV () {
-        return drivebase;
-    }
+    // public Vroombase getV () {
+    //     // return vroombase;
+    // }
 }
